@@ -1,0 +1,35 @@
+<magazzino>
+    <categoria>
+        <nameCat>libri</nameCat>
+        <prodotto>
+            <nome>quaderno</nome>
+            <prezzo>12</prezzo>
+        </prodotto>
+    </categoria>
+    <categoria >
+         <nameCat>quadri</nameCat>
+        <prodotto>
+            <nome></nome>
+            <prezzo></prezzo>
+        </prodotto>
+    </categoria>
+    <categoria>
+    <nameCat>film</nameCat>
+        <prodotto>
+            <nome></nome>
+            <prezzo></prezzo>
+        </prodotto>
+    </categoria>
+    <vestiti>
+        <prodotto>
+            <nome></nome>
+            <prezzo></prezzo>
+        </prodotto>
+    </vestiti>
+    <sport>
+        <prodotto>
+            <nome></nome>
+            <prezzo></prezzo>
+        </prodotto>
+    </sport>
+</magazzino>
