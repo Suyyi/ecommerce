@@ -5,15 +5,16 @@
 		header("location:login.php?err = 0");
 		die();
 	}
-	$_SESSION["user"]= $_REQUEST["user"];
-	if(isset($_SESSION["numTentativi"])){
-		if($_SESSION["numTentativi"]>=3){
+	$nome = $_REQUEST["user"];
+	$_SESSION[$nome];
+	if(isset($_SESSION[$nome]["numTentativi"])){
+		if($_SESSION[$nome]["numTentativi"]>=3){
 		 header("location:login.php?err=4");
-		 $_SESSION["numTentativi"]=0;
+		 $_SESSION[$nome]["numTentativi"]=0;
 		die();
 		}
 	}
- 	$_SESSION["numTentativi"] += 1;
+ 	$_SESSION[$nome]["numTentativi"] += 1;
 
 	$login = login($_REQUEST["user"],$_REQUEST["paswd"]);
  	switch ($login) {

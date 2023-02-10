@@ -12,15 +12,15 @@ session_start();
       <title>SHOP </title>
    </head>
    <body> 
-      <form name="categoria" method="POST" action="categorie.php">
+      <form name="categoria" method="POST" action="prodottiDiCategorie.php">
          <div>
-            <select>
+            <select name="categoria">
                <?php
                   $array = array();
-                  $array = leggiDaFileXml();
+                  $array = leggiDaFileXml("nameCat");
                   if($array != -1){
-                     foreach($array as $key => $value){
-                        echo "<option value=$key> $value </option>";
+                     foreach($array as  $value){
+                        echo "<option vlaue=$value> $value </option>";
                      }
                   }else{
                      echo "<option> errore </option>";

@@ -31,7 +31,7 @@ if (isset($_REQUEST["err"])) {
 			</div> 
 		</form>
 		<div>
-			<a href="registrazione.php"/>
+			<a href="registrazione.php"> </a>
 		</div>
 	</body>
 	

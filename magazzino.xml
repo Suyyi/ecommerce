@@ -5,31 +5,45 @@
             <nome>quaderno</nome>
             <prezzo>12</prezzo>
         </prodotto>
+        <prodotto>
+            <nome>quaderno1</nome>
+            <prezzo>12</prezzo>
+        </prodotto>
+        <prodotto>
+            <nome>quaderno2</nome>
+            <prezzo>12</prezzo>
+        </prodotto>
     </categoria>
     <categoria >
          <nameCat>quadri</nameCat>
         <prodotto>
-            <nome></nome>
-            <prezzo></prezzo>
+            <nome>la ragazza con l'orecchino di perle</nome>
+            <prezzo>45</prezzo>
+        </prodotto>
+         <prodotto>
+            <nome>la ragazza con l'orecchino di perle</nome>
+            <prezzo>45</prezzo>
         </prodotto>
     </categoria>
     <categoria>
     <nameCat>film</nameCat>
         <prodotto>
-            <nome></nome>
-            <prezzo></prezzo>
+            <nome>scareface</nome>
+            <prezzo>80</prezzo>
         </prodotto>
     </categoria>
-    <vestiti>
+    <categoria>
+        <nameCat>vestiti</nameCat>
         <prodotto>
-            <nome></nome>
-            <prezzo></prezzo>
+            <nome>fgsdfs</nome>
+            <prezzo>fdsfdsf</prezzo>
         </prodotto>
-    </vestiti>
-    <sport>
+    </categoria>
+    <categoria>
+        <nameCat>sport</nameCat>
         <prodotto>
-            <nome></nome>
-            <prezzo></prezzo>
+            <nome>fdsfds</nome>
+            <prezzo>fdsfdsf</prezzo>
         </prodotto>
-    </sport>
+    </categoria>
 </magazzino>

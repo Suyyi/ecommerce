@@ -62,7 +62,7 @@
 
 	
 	//leggi da file.xml
-	function leggiDaFileXml($file="magazzino.xml"){
+	function leggiDaFileXml($nomeCategoria,$file="magazzino.xml"){
 		/*
 		-1 = file non esiste
 		*/
@@ -74,7 +74,7 @@
 		 $doc = new DOMDocument(); 
 		 $doc->load($file);
 
-		 $magazzino = $doc->getElementsByTagName("nameCat");
+		 $magazzino = $doc->getElementsByTagName($nomeCategoria);
 		 foreach ($magazzino as $value) {
 			$array[] = $value->nodeValue;
 			}
@@ -111,6 +111,8 @@
 	 function cambiaPasword($user,$paswd){
 
 	}
+
+	
 	
 	
 ?>
